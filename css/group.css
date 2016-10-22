@@ -3,17 +3,17 @@ body {
 	background: #EEE;
 }
 
-.groups {
+.words {
 	display: table;
 	font-size: 0;
 	vertical-align: middle;
-    margin: auto;
-    padding: 5;
+    	margin: auto;
+    	padding: 10;
 	font-family: courier;
-	opacity:0.85;
+	opacity:0.8;
 	position:absolute;
-	top:70px;
-	left:0px;
+	top:100px;
+	left:10px;
 	right:10px;
 }
 
@@ -128,7 +128,6 @@ li {
 	right:10px;
 	font-size: 30;
 }
-
 
 
 
