@@ -16,7 +16,7 @@ var colBreak = 30;
 var index=0;
 var max = 1;
 var groupTo;
-var maxFontSize = 100;
+var maxFontSize = 50;
 var flagPause = false;
 var small = false;
 var lbGroup;
@@ -175,11 +175,11 @@ function plotYear(){
 
 	if(window.innerWidth < 650){
 		lbGroup.textContent = null;
-		maxFontSize = 50;
+		maxFontSize = 30;
 		small = true;
 	}else{
 		lbGroup.textContent = data[grp].group;
-		maxFontSize = 100;
+		maxFontSize = 50;
 		small = false;
 	}
 
