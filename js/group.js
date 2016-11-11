@@ -170,20 +170,17 @@ function goTo(){
 function plotYear(){
 
 	
+	document.getElementById("info").style.width = window.parent.innerWidth -20 ;
 
-	document.getElementById("words").style.width = parseInt(document.getElementById("info").clientWidt)-30;
+	document.getElementById("words").style.width = parseInt(document.getElementById("info").clientWidt)-60;
 
 
-	if(window.innerWidth < 650){
+	if(window.innerWidth < 561){
 		lbGroup.textContent = null;
 		maxFontSize = 30;
 		small = true;
-		
-			if(window.innerWidth > 520){
-				document.getElementById("lab").style.width = window.innerWidth/2;
-			}else{
-				document.getElementById("lab").style.width = 90;
-			}
+		document.getElementById("lab").style.width = parseInt(document.getElementById("info").clientWidt)-100;
+
 		
 	}else{
 		lbGroup.textContent = data[grp].group;

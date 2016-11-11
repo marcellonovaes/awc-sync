@@ -61,7 +61,7 @@ li {
 .btBar {
 	position:absolute;
 	top:5px;
-	left:20px;
+	left:5px;
 	font-size: 30;
 }
 
@@ -86,7 +86,7 @@ li {
 .yearTo {
 	position:absolute;
 	top:17px;
-	left:100px;
+	left:70px;
 	background: #FFF;
 	height:40px;
 	width:90px;
@@ -96,17 +96,17 @@ li {
 .lab {
 	position:absolute;
 	top:17px;
-	left:220px;
+	left:170px;
 	background: #FFF;
 	height:40px;
-	width:380px;
+	width:70px;
 	font-size: 15;
 }
 
 .info {
 	position:absolute;
 	top:5px;
-	left:10px;
+	left:0px;
 	right:10px;
 	background: #000;
 	height:75px;
